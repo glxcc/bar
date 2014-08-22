@@ -1,9 +1,11 @@
 'use strict';
-
-angular.module('mean.pub').factory('Pub', [
-  function() {
-    return {
-      name: 'pub'
-    };
-  }
+var pubApp = angular.module("mean.pub");
+pubApp.factory('Pub', [
+    function () {
+        return {
+            name: 'pub',
+            test: 'text'
+        };
+    }
 ]);
+
